@@ -2164,13 +2164,12 @@ body {
     }
 
     #birthday-message .birthday-card {
-        width: 96%;
-
-        padding: 30px 18px;
-
-        border-radius: 24px;
-    }
-
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 30px 18px;
+    border-radius: 24px;
+}
     #birthday-message .birthday-heart {
         font-size: 45px;
     }
