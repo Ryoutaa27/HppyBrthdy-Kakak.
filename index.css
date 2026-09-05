@@ -2674,3 +2674,26 @@ body {
 #birthday-message .birthday-card p {
     text-align: center;
 }
+/* ==========================================
+   PERBAIKAN POSISI TEKS PESAN DI HP
+   ========================================== */
+
+#birthday-message .birthday-card {
+    text-align: center;
+}
+
+#birthday-message .birthday-card h1,
+#birthday-message .birthday-card h2,
+#birthday-message .birthday-card p {
+    text-align: center !important;
+}
+
+#birthday-message .message-english,
+#birthday-message .message-indonesia {
+    text-align: center !important;
+}
+
+#birthday-message .message-english p,
+#birthday-message .message-indonesia p {
+    text-align: center !important;
+}
