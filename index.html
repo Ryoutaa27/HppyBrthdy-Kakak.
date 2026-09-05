@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Kakak 🎂</title>
+
+    <link rel="stylesheet" href="../CSS/index.css">
+</head>
+
+<body>
+
+    <!-- ========================================
+         SECTION 1 : PEMBUKA
+         ======================================== -->
+    <section id="opening" class="opening-section">
+
+        <!-- AUDIO SECTION 1 -->
+        <audio
+            id="audio-section-1"
+            src="../Audio/Section1.mp3"
+            loop
+            preload="auto">
+        </audio>
+
+        <!-- TOMBOL MUSIK -->
+        <button
+            type="button"
+            id="music-button-section-1"
+            class="music-button"
+            aria-label="Putar atau hentikan musik">
+            🎵 Putar Musik
+        </button>
+
+        <!-- ISI PEMBUKA -->
+        <div class="opening-content">
+
+            <p class="opening-subtitle">
+                For My
+            </p>
+
+            <h1>
+                Beautiful Sister ❤️
+            </h1>
+
+            <p class="opening-text">
+                Ada sedikit sesuatu yang dibuat khusus untuk Kakak...
+            </p>
+
+            <button
+                type="button"
+                class="opening-button"
+                id="open-surprise">
+                Buka Kejutan 💗
+            </button>
+
+        </div>
+
+    </section>
+
+<!-- ========================================
+     SECTION 2 : LANGIT HARAPAN
+     ======================================== -->
+<section id="wish-sky" class="wish-sky">
+
+    <!-- AWAN -->
+    <div class="cloud cloud-one">☁️</div>
+    <div class="cloud cloud-two">☁️</div>
+
+
+    <!-- ========================================
+         JUDUL SECTION 2
+         ======================================== -->
+    <div class="wish-header">
+
+        <h1>
+            Langit Harapan Untuk Kakak 🌌
+        </h1>
+
+        <p>
+            Ada beberapa bintang yang menyimpan
+            pesan untuk Kakak...
+        </p>
+
+        <p class="wish-hint">
+            ✨ Coba temukan semuanya ✨
+        </p>
+
+    </div>
+
+
+    <!-- ========================================
+         7 BINTANG
+         ======================================== -->
+
+    <button
+        type="button"
+        class="wish-star"
+        data-wish="1"
+        aria-label="Bintang 1">
+        ⭐
+    </button>
+
+    <button
+        type="button"
+        class="wish-star"
+        data-wish="2"
+        aria-label="Bintang 2">
+        ⭐
+    </button>
+
+    <button
+        type="button"
+        class="wish-star"
+        data-wish="3"
+        aria-label="Bintang 3">
+        ⭐
+    </button>
+
+    <button
+        type="button"
+        class="wish-star"
+        data-wish="4"
+        aria-label="Bintang 4">
+        ⭐
+    </button>
+
+    <button
+        type="button"
+        class="wish-star"
+        data-wish="5"
+        aria-label="Bintang 5">
+        ⭐
+    </button>
+
+    <button
+        type="button"
+        class="wish-star"
+        data-wish="6"
+        aria-label="Bintang 6">
+        ⭐
+    </button>
+
+    <button
+        type="button"
+        class="wish-star"
+        data-wish="7"
+        aria-label="Bintang 7">
+        ⭐
+    </button>
+
+
+    <!-- ========================================
+         COUNTER
+         ======================================== -->
+    <div class="wish-counter">
+        ⭐ <span id="wish-count">0</span> / 7 ditemukan
+    </div>
+
+
+    <!-- ========================================
+         POPUP PESAN BINTANG
+         ======================================== -->
+    <div
+        id="wish-popup"
+        class="wish-popup hidden">
+
+        <div class="wish-card">
+
+            <button
+                type="button"
+                id="close-wish"
+                class="close-wish"
+                aria-label="Tutup pesan">
+                ×
+            </button>
+
+            <div id="wish-icon">
+                ⭐
+            </div>
+
+            <h2 id="wish-title">
+                Pesan Untuk Kakak
+            </h2>
+
+            <p id="wish-message">
+                Pesan akan muncul di sini.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ========================================
+     TRANSISI SETELAH 7 BINTANG
+     ======================================== -->
+<div
+    id="section-transition"
+    class="section-transition">
+
+    <div class="transition-content">
+
+        <div class="transition-love">
+            ❤️
+        </div>
+
+        <div class="transition-decorations">
+            ✦　✧　✦　♡　✦　✧　♡　✦
+        </div>
+
+        <p class="transition-message">
+            Setelah pesan ini, masih ada satu pesan
+            yang ingin Rio sampaikan, Kak....
+        </p>
+
+        <p class="transition-wait">
+            Tunggu sebentar ya, Kak... ❤️
+        </p>
+
+    </div>
+
+</div>
+
+<!-- ========================================
+     SECTION 3 : PESAN ULANG TAHUN
+     ======================================== -->
+
+<section
+    id="birthday-message"
+    class="birthday-section">
+
+    <!-- BINTANG LATAR -->
+    <div
+        class="birthday-stars"
+        aria-hidden="true">
+
+        ✦　·　✧　　⋆　·　✦　　✧
+        <br>
+        ⋆　✦　·　　✧　·　⋆　✦
+
+    </div>
+
+
+    <!-- AWAN -->
+    <div
+        class="birthday-cloud cloud-left"
+        aria-hidden="true">
+
+        ☁️
+
+    </div>
+
+    <div
+        class="birthday-cloud cloud-right"
+        aria-hidden="true">
+
+        ☁️
+
+    </div>
+
+
+    <!-- PARTIKEL -->
+    <div
+        class="birthday-particles"
+        aria-hidden="true">
+
+        <span>✦</span>
+        <span>✧</span>
+        <span>♡</span>
+        <span>✦</span>
+        <span>·</span>
+        <span>✧</span>
+        <span>♡</span>
+        <span>✦</span>
+
+    </div>
+
+
+    <!-- KARTU PESAN -->
+    <div class="birthday-card">
+
+        <div class="birthday-heart">
+            💗
+        </div>
+
+
+        <h1>
+            Happy Birthday, Kakak! 🎂
+        </h1>
+
+
+        <!-- PESAN BAHASA INGGRIS -->
+
+        <div class="message-english">
+
+            <h2>
+                For My Dearest Kakak 🤍
+            </h2>
+
+            <p>
+                Thank you for being a part of my life.
+                You are not only my sister, but also someone
+                I can look up to, talk to, and always count on.
+            </p>
+
+            <p>
+                I hope this new chapter of your life brings
+                you happiness, peace, and many beautiful moments.
+                May you always find reasons to smile,
+                and may all the good things you deserve
+                slowly find their way to you. ✨
+            </p>
+
+            <p>
+                No matter where life takes us,
+                I hope you always know how special
+                you are to me. 💗
+            </p>
+
+        </div>
+
+
+        <div class="message-divider">
+            ♡ ✦ ♡
+        </div>
+
+
+        <!-- PESAN BAHASA INDONESIA -->
+
+        <div class="message-indonesia">
+
+            <h2>
+                Untuk Kakak Tersayang 💕
+            </h2>
+
+            <p>
+                Terima kasih sudah selalu ada dalam hidup Rio.
+                Bukan hanya sebagai seorang kakak,
+                tetapi juga sebagai seseorang yang bisa Rio
+                jadikan tempat bercerita, berbagi,
+                dan belajar banyak hal.
+            </p>
+
+            <p>
+                Di hari ulang tahun Kakak ini,
+                Rio berharap semoga Kakak selalu diberikan
+                kebahagiaan, ketenangan, dan banyak hal baik
+                dalam setiap langkah yang Kakak jalani.
+            </p>
+
+            <p>
+                Semoga semua impian dan harapan Kakak
+                perlahan menemukan jalannya,
+                dan semoga senyum Kakak selalu punya
+                alasan untuk tetap ada setiap hari. ✨
+            </p>
+
+        </div>
+
+
+        <!-- PENUTUP -->
+
+        <div class="birthday-ending">
+
+            <p>
+                Rioo sayang Kakak. ❤️
+            </p>
+
+            <p>
+                Terima kasih sudah menjadi kakak baik
+                yang Rio kenal dan selalu Rio sayangi.
+            </p>
+
+            <h2>
+                Selamat ulang tahun, Kakak. 🎂💗
+            </h2>
+
+        </div>
+
+
+        <!-- TOMBOL KE SECTION 4 -->
+
+        <button
+            type="button"
+            id="next-section-4"
+            class="birthday-next">
+
+            Lanjut ✨
+
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ========================================
+     SECTION 4 : KEJUTAN TERAKHIR
+     ======================================== -->
+<section
+    id="final-surprise"
+    class="final-surprise"
+    style="display: none;">
+
+    <!-- LANGIT FINAL -->
+    <div class="final-sky">
+
+        <!-- BINTANG LATAR -->
+        <div class="final-stars-background">
+            ✦　·　✧　·　✦　·　·　✧　·　✦
+        </div>
+
+        <!-- KONTEN UTAMA -->
+        <div
+            id="final-transition"
+            class="final-transition">
+
+            <div class="final-decoration">
+                ✨ 💕 ✨
+            </div>
+
+            <div class="cake-wrapper">
+
+                <button
+                    type="button"
+                    id="birthday-cake"
+                    class="birthday-cake"
+                    aria-label="Kue ulang tahun">
+
+                    🎂
+
+                </button>
+
+                <p class="cake-hint">
+                    Tap kuenya 3 kali ya, Kak... 💗
+                </p>
+
+                <p
+                    id="cake-counter"
+                    class="cake-counter">
+                    0 / 3
+                </p>
+
+            </div>
+
+            <!-- PESAN SETELAH TAP KE-3 -->
+            <div
+                id="final-message"
+                class="final-message"
+                style="display: none;">
+
+                <div class="final-heart">
+                    ❤️
+                </div>
+
+                <h1>
+                    Selamat Ulang Tahun, Kakak! 🎂
+                </h1>
+
+                <p>
+                    Semoga hari ini menjadi awal
+                    dari banyak hal indah untuk Kakak. ✨
+                </p>
+
+                <p>
+                    Terima kasih sudah menjadi
+                    kakak yang selalu Rio sayangi. 💗
+                </p>
+
+                <div class="final-sparkle">
+                    ✦ ✧ ✦ ✧ ✦
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- EFEK FINAL -->
+        <div
+            id="fireworks-container"
+            class="fireworks-container"
+            aria-hidden="true">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================================
+     JAVASCRIPT PROJECT
+     ======================================== -->
+
+<script src="../JS/index.js"></script>
+
+</body>
+
+</html>
