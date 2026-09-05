@@ -2670,3 +2670,7 @@ body {
         text-align: center !important;
     }
 }
+/* MEMBUAT PESAN DI TENGAH PADA HP */
+#birthday-message .birthday-card p {
+    text-align: center;
+}
