@@ -2663,9 +2663,10 @@ body {
         word-break: normal;
     }
 }
-/* CENTER TEXT PESAN DI HP */
+/* PERBAIKAN TENGAH TEKS PESAN DI HP */
 @media (max-width: 768px) {
+    #birthday-message .birthday-card,
     #birthday-message .birthday-card p {
-        text-align: center;
+        text-align: center !important;
     }
 }
