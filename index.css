@@ -2636,3 +2636,30 @@ body {
     }
 
 }
+/* FIX MOBILE BIRTHDAY MESSAGE */
+@media (max-width: 600px) {
+    #birthday-message {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    #birthday-message .birthday-card {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        box-sizing: border-box;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+
+    #birthday-message .birthday-card p {
+        max-width: 100%;
+        overflow-wrap: break-word;
+        word-break: normal;
+    }
+}
